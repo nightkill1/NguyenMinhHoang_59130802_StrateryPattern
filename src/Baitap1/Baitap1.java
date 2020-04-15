@@ -16,6 +16,12 @@ public class Baitap1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Cong cong = new Cong();
+        System.out.println("75 + 12 = " +cong.Tinh(75, 12));
+        Tru tru = new Tru();
+        System.out.println("54 - 78 = " +tru.Tinh(54, 78));
+        
+        
     }
     
 }
