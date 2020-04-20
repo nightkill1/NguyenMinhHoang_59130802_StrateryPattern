@@ -9,8 +9,16 @@ package BaiTap3;
  *
  * @author hoang
  */
-public interface ISoSanh<T>{
+public class SoSanhTheoDiem implements ISoSanh<SinhVien>{
+
+    @Override
+    public int SoSanh(SinhVien o1, SinhVien o2) {
+        if(o1.diemTB >o2.diemTB)
+        {
+            return 1;
+        }else
+            return 0;
+    }
     
-    public int SoSanh(T o1, T o2 );
     
 }
